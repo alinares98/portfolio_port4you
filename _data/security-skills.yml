@@ -8,7 +8,7 @@
 
 - name: Nessus
   percentage: 85
-  color: light
+  color: info
 
 - name: Wireshark
   percentage: 70
