@@ -32,3 +32,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         {% include about/timeline-education.html%}
     </div>
 </div>
+
+<div class="row">
+    <div class ="col-lg">
+        <h2 class ="mb-3">Licences and certifications</h2>
+        {% include about/timeline-lic.html%}
+    </div>
+</div>
