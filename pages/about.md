@@ -16,8 +16,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </div>
 
 <div class="row">
-<h2 class ="mb-3">Programming Skills</h2>
-{% include about/timeline.html source=site.data.timeline-work%}
+    <div class ="col-lg">
+        <h2 class ="mb-3">Programming Skills</h2>
+        {% include about/timeline.html source=site.data.timeline-work%}
+    </div>
 </div>
 
 <div class="row">
