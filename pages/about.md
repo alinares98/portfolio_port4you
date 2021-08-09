@@ -16,7 +16,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </div>
 
 <div class="row">
-{% include about/timeline.html title="Programming Skills" source=site.data.timeline-work%}
+<h2>Programming Skills</h2>
+{% include about/timeline.html source=site.data.timeline-work%}
 </div>
 
 <div class="row">
