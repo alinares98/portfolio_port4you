@@ -16,7 +16,7 @@ I am currently studying the last year of my degree in computer engineering at UC
 </div>
 
 <div class="row">
-{% include about/skills.html title="Soft Skills" source=site.data.other-skills %}
+{% include about/skills.html title="Other Skills" source=site.data.other-skills %}
 </div>
 
 <div class="row">
