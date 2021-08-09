@@ -1,4 +1,9 @@
 - title: IT technician, DIVISEGUR
+  from: Aug 2021
+  to: Sep 2021
+  description:
+
+- title: IT technician, DIVISEGUR
   from: Jul 2020
   to: Oct 2020
   description:
@@ -6,7 +11,8 @@
 - title: Intern at the UC3M Sports, Activities and Participation Service
   from: Ene 2019
   to: Dec 2019
-  description: -Customer service in person and by telephone at the Sports Centre on the Leganés campus
+  description:
+    -Customer service in person and by telephone at the Sports Centre on the Leganés campus
     -Support for the management of registrations and payments of the activities programmed in the Service
     -Use of relational databases for the management of registrations (Deporwin)
     -Coordination with the information centre and with the Dissemination and IT areas of the service
