@@ -18,13 +18,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <div class="row">
     <div class ="col-lg">
         <h2 class ="mb-3">Work Experience</h2>
+        {% include about/timeline.html%}
     </div>
-{% include about/timeline.html%}
 </div>
 
 <div class="row">
     <div class ="col-lg">
         <h2 class ="mb-3">Education</h2>
+        {% include about/timeline.html%}
     </div>
-{% include about/timeline.html%}
 </div>
