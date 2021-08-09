@@ -22,11 +22,7 @@ I am currently studying the last year of my degree in computer engineering at UC
 <div class="row">
     <div class ="col-lg">
         <h2 class ="mb-3">Work Experience</h2>
-        <div class="col mt-4">
-        <div class ="timeline-body bg-themed" style="background-color: darkgoldenrod">
         {% include about/timeline.html%}
-    </div>
-    </div>>
     </div>
 </div>
 
