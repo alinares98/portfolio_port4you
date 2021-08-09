@@ -29,6 +29,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <div class="row">
     <div class ="col-lg">
         <h2 class ="mb-3">Education</h2>
-        {% include about/timeline-work.html%}
+        {% include about/timeline-education.html%}
     </div>
 </div>
