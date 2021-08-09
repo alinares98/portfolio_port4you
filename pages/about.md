@@ -16,6 +16,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </div>
 
 <div class="row">
+{% include about/skills.html title="Soft Skills" source=site.data.other-skills %}
+</div>
+
+<div class="row">
     <div class ="col-lg">
         <h2 class ="mb-3">Work Experience</h2>
         {% include about/timeline.html%}

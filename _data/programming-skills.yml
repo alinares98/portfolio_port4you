@@ -2,10 +2,14 @@
   percentage: 90
   color: danger
 
-- name: Go
+- name: Oracle/MySql
   percentage: 80
   color:
 
 - name: Python
   percentage: 70
   color: secondary
+
+- name: Visual Basic para Aplicaciones (VBA)
+  percentage: 95
+  color: success
