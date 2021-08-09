@@ -1,0 +1,15 @@
+- name: Nmap
+  percentage: 95
+  color: success
+
+- name: BurpSuite
+  percentage: 80
+  color: warning
+
+- name: Nessus
+  percentage: 85
+  color: light
+
+- name: Wireshark
+  percentage: 70
+  color: dark
