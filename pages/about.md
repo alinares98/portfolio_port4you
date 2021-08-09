@@ -16,8 +16,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </div>
 
 <div class="row">
-Programming Skills
-<h1>Programming Skills</h1>
+<h2 class ="mb-3">Programming Skills</h2>
 {% include about/timeline.html source=site.data.timeline-work%}
 </div>
 
