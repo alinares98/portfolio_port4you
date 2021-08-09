@@ -17,6 +17,7 @@ I am currently studying the last year of my degree in computer engineering at UC
 
 <div class="row">
 {% include about/skills.html title="Other Skills" source=site.data.other-skills %}
+{% include about/skills.html title="Idioms" source=site.data.Idioms %}
 </div>
 
 <div class="row">

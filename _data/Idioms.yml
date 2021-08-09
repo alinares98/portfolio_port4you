@@ -1,0 +1,7 @@
+- name: Spanish
+  percentage: 100
+  color: danger
+
+- name: English
+  percentage: 95
+  color: info
