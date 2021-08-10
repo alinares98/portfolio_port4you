@@ -3,6 +3,6 @@
  title: Contact
  permalink: /contact/
  weight: 5
- ---
+---
  
  <p>prueba de contcato</p>
