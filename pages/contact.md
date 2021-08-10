@@ -6,7 +6,7 @@
 ---
 <html>
 <head>
-<styles>
+<style>
 *, *:before, *:after {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
@@ -242,7 +242,7 @@ body, button, input {
     padding: 0;
   }
 }
-</styles>
+</style>
 </head>
 <div class="background">
   <div class="container">
