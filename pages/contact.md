@@ -4,6 +4,7 @@
  permalink: /contact/
  weight: 5
 ---
+<html>
 <head>
     <link rel="contactsheet" href="contact.css">
 </head>
@@ -68,3 +69,4 @@
     </div>
   </div>
 </div>
+</html>
