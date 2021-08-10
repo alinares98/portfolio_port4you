@@ -29,11 +29,11 @@ author:
 # dribbble          : your_username
   email             : albertolinarescorrales16@gmail.com
 # facebook          : your_username
-  github            : github.com/alinares98
+  github            : alinares98
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
-  linkedin          : linkedin.com/in/linarescorrales/
+  linkedin          : linarescorrales
 # medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username
@@ -80,7 +80,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      comments: true                                   # Set to true to enable disqus comments
+      comments: false                                   # Set to true to enable disqus comments
 
 ### Exclude from processing ###
 exclude:
