@@ -13,13 +13,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
-  background: linear-gradient(to right, #ea1d6f 0%, #eb466b 100%);
-  font-size: 12px;
-}
-
 body, button, input {
-  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   letter-spacing: 1.4px;
 }
@@ -37,7 +31,7 @@ body, button, input {
 
 .screen {
   position: relative;
-  background: #3e3e3e;
+  background: #ea1d6f;
   border-radius: 15px;
 }
 
@@ -186,16 +180,6 @@ body, button, input {
   color: #b9134f;
 }
 
-.credits {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-  color: #ffa4bd;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 16px;
-  font-weight: normal;
-}
 
 .credits-link {
   display: flex;
@@ -262,24 +246,24 @@ body, button, input {
       <div class="screen-body">
         <div class="screen-body-item left">
           <div class="app-title">
-            <span>CONTACT</span>
-            <span>US</span>
+            <span>GET IN</span>
+            <span>TOUCH</span>
           </div>
-          <div class="app-contact">GET IN TOUCH : +34 677 14 68 48</div>
+          <div class="app-contact">CONTACT INFO : +34 677 14 68 48</div>
         </div>
         <div class="screen-body-item">
           <div class="app-form">
             <div class="app-form-group">
-              <input class="app-form-control" placeholder="Name" value="Krisantus Wanandi">
+              <input class="app-form-control" placeholder="NAME" value="Krisantus Wanandi">
             </div>
             <div class="app-form-group">
-              <input class="app-form-control" placeholder="Email">
+              <input class="app-form-control" placeholder="EMAIL">
             </div>
             <div class="app-form-group">
-              <input class="app-form-control" placeholder="Nº Contacto">
+              <input class="app-form-control" placeholder="Nº CONTACTO">
             </div>
             <div class="app-form-group message">
-              <input class="app-form-control" placeholder="Message">
+              <input class="app-form-control" placeholder="MESSAGE">
             </div>
             <div class="app-form-group buttons">
               <button class="app-form-button">CANCEL</button>
