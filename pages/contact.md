@@ -113,8 +113,7 @@ body, button, input {
   display: flex;
   flex-direction: column;
   position: relative;
-  color: #ea1d6f;
-  font-size: 26px;
+  font-size: 52px;
 }
 
 .app-title:after {
@@ -130,8 +129,7 @@ body, button, input {
 
 .app-contact {
   margin-top: auto;
-  font-size: 8px;
-  color: #888;
+  font-size: 12px;
 }
 
 .app-form-group {
@@ -153,7 +151,6 @@ body, button, input {
   background: none;
   border: none;
   border-bottom: 1px solid #666;
-  color: #ddd;
   font-size: 14px;
   text-transform: uppercase;
   outline: none;
