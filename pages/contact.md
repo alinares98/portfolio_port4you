@@ -144,6 +144,10 @@ body, button, input {
   margin-bottom: 0;
   text-align: right;
 }
+[data-theme="dark"] input{
+    border-color: #343a40;
+    color: #17191a;
+}
 
 .app-form-control {
   width: 100%;
