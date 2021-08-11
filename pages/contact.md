@@ -24,7 +24,6 @@ body, button, input {
 }
 
 .container {
-  flex: 0 1 700px;
   margin: auto;
   padding: 10px;
 }
