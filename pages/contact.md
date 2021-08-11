@@ -72,6 +72,7 @@ body, button, input {
 
 .screen-header-button.close {
   background: #ed1c6f;
+  float: inherit;
 }
 
 .screen-header-button.maximize {
