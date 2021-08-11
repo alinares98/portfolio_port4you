@@ -145,6 +145,7 @@ body, button, input {
   text-align: right;
 }
 [data-theme="dark"] input{
+	background-color: #ea1d6f;
     border-color: #343a40;
     color: #17191a;
 }
