@@ -5,7 +5,7 @@ permalink: /
 
 <nav class="navbar navbar-expand-lg navbar-themed">
 
-<a class="collapse navbar-collapse" id="cv" href="/projects/">cv</a>
+<a class="collapse navbar-collapse" id="cv" href="/projects/" style="color:red">CV</a>
 
 </nav>
 
