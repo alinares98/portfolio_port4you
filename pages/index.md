@@ -5,7 +5,7 @@ permalink: /
 
 <nav class="navbar navbar-expand-lg navbar-themed">
 
-  <a class="navbar-brand" href="/"><h5><b>Alberto Linares</b></h5></a>
+<a class="collapse navbar-collapse" id="cv" href="/projects/">cv</a>
 
 </nav>
 
