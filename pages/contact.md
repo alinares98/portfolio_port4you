@@ -112,7 +112,7 @@ body, button, input {
   display: flex;
   flex-direction: column;
   position: relative;
-  font-size: 52px;
+  font-size: 48px;
 }
 
 .app-title:after {
