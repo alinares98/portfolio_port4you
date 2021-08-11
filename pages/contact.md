@@ -4,7 +4,6 @@
  permalink: /contact/
  weight: 5
 ---
-<!DOCTYPE html>
 <html lang="en">
 <head>
 	<title>Contact V5</title>
