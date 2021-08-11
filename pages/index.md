@@ -147,4 +147,3 @@ $(function () {
 
 </html>
 
-{% include landing.html %}
