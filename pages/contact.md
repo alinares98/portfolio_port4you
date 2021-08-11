@@ -76,6 +76,10 @@ body, button, input {
   background: white;
 }
 
+.close {
+    float: none;
+}
+
 .screen-header-button.close {
   background: #ed1c6f;
 }
