@@ -14,8 +14,7 @@
 }
 
 body {
-  background: linear-gradient(to right, #ea1d6f 0%, #eb466b 100%);
-  font-size: 12px;
+  
 }
 
 body, button, input {
