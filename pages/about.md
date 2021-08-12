@@ -14,18 +14,18 @@ I am currently studying the last year of my degree in computer engineering at UC
 <div class="col-lg">
 <h2 class="mb-3">Contact Info</h2>
 	<div class="row justify-content-between align-items-center">
-    <div class="col-10">
+    <div class="col-3">
       <p class="mb-1">Mobile</p>
     </div>
-    <div class="col-2 text-right">
+    <div class="col-9">
       <p class="mb-1 text-muted">+34 677 14 68 48</p>
     </div>
   </div>
   <div class="row justify-content-between align-items-center">
-    <div class="col-10">
+    <div class="col-3">
       <p class="mb-1">Email</p>
     </div>
-    <div class="col-2 text-right">
+    <div class="col-9">
       <p class="mb-1 text-muted">albertolinarescorrales16@gmail.com</p>
     </div>
   </div>
