@@ -3,11 +3,11 @@
   color: danger
 
 - name: Oracle/MySql
-  percentage: 80
+  percentage: 85
   color:
 
 - name: Python
-  percentage: 70
+  percentage: 80
   color: secondary
 
 - name: Visual Basic para Aplicaciones (VBA)
