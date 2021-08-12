@@ -11,6 +11,7 @@ Hi I am **{{ site.author.name }}** :wave:,<br>
 I am currently studying the last year of my degree in computer engineering at UC3M, during my years in the career I have discovered my passion for cybersecurity, so every day I focus on continuing to acquire knowledge in both network team and blue team. In constant growth and learning, I participate in CTFs to expand and improve my skills in this field.
 
 <div class="row">
+<div class="col-lg">
 <h2 class="mb-3">Contact Info</h2>
 	<div class="row justify-content-between align-items-center">
     <div class="col-10">
@@ -28,6 +29,7 @@ I am currently studying the last year of my degree in computer engineering at UC
       <p class="mb-1 text-muted">albertolinarescorrales16@gmail.com</p>
     </div>
   </div>
+</div>
 </div>
 
 <div class="row">
