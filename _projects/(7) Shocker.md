@@ -17,6 +17,6 @@ References
 {% endcapture %}
 {% include elements/list.html title="Table of Contents" type="toc" %}
 
-```linux
+```unix
 sudo wfuzz -c -t 200 --hc=404 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt http://10.10.10.56/FUZZ/
 ```
