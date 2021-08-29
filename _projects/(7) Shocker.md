@@ -7,13 +7,30 @@ description: This is Shocker HackTheBox machine walkthrough, this is an easy dif
 
 # WriteUp – Shocker – ShellShock
 
-{% include elements/figure.html image="../img/Shocker_info.png" %}
+{% include elements/figure.html image="../img/Shocker/Shocker_info.png" %}
 
 Today we are going to make the [HackTheBox](https://www.hackthebox.eu/) 
-**Shocker** machine, 
-it is a very simple machine but it will allow us to know more 
-about the **ShellShock** vulnerability that we will see later.
+**Shocker** machine, it is a very simple machine but it will allow us 
+to know more about the **ShellShock** vulnerability that we will see later.
 
+#Enumeration
+
+First of all, a port scan will be executed with **Nmap** in order to see which 
+ports are open on the target machine.
+
+```
+sudo nmap -p- -sS --min-rate 5000 --open  -vvv -n -Pn 10.10.10.56 -oG allPorts
+```
+{% include elements/figure.html image="../img/Shocker/ports_nmap.png" %}
+
+* `-p-`
+- `-sS-`
++ `--min-rate 5000`
+- `--open`
+- `-vvv`
+- `-n`
+- `-Pn`
+- `-oG`
 
 
 {% capture list_items %}
