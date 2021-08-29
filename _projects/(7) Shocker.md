@@ -41,4 +41,4 @@ sudo nmap -p- -sS --min-rate 5000 --open  -vvv -n -Pn 10.10.10.56 -oG allPorts
 - `-oG` Grepable output
 
 
-
+[More information about the parameters involved](https://explainshell.com/explain?cmd=sudo+nmap+-p-+-sS+--min-rate+5000+--open++-vvv+-n+-Pn+10.10.10.56+-oG+allPorts)
