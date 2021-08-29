@@ -9,8 +9,9 @@ description: This is Shocker HackTheBox machine walkthrough, this is an easy dif
 
 {% include elements/figure.html image="../img/Shocker_info.png" caption="Shocker" %}
 
-hola aaadfnodoqdnqodn hola aaadfnodoqdnqodnhola aaadfnodoqdnqodnhola aaadfnodoqdnqodnhola aaadfnodoqdnqodnhola 
-aaadfnodoqdnqodnhola aaadfnodoqdnqodnhola aaadfnodoqdnqodnhola aaadfnodoqdnqodnhola aaadfnodoqdnqodnhola aaadfnodoqdnqodnhola 
-aaadfnodoqdnqodnhola aaadfnodoqdnqodnhola aaadfnodoqdnqodnhola aaadfnodoqdnqodnhola aaadfnodoqdnqodnhola aaadfnodoqdnqodnhola 
-aaadfnodoqdnqodnhola aaadfnodoqdnqodnhola aaadfnodoqdnqodnhola aaadfnodoqdnqodnhola aaadfnodoqdnqodnhola aaadfnodoqdnqodnhola 
-aaadfnodoqdnqodnhola aaadfnodoqdnqodn
+{% capture list_items %}
+Enumeration
+Exploitation
+Privilege escalation
+{% endcapture %}
+{% include elements/list.html title="Table of Contents" type="toc" %}
