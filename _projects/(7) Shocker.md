@@ -13,7 +13,15 @@ Today we are going to make the [HackTheBox](https://www.hackthebox.eu/)
 **Shocker** machine, it is a very simple machine but it will allow us 
 to know more about the **ShellShock** vulnerability that we will see later.
 
-#Enumeration
+{% capture list_items %}
+Enumeration
+Exploitation
+Privilege escalation
+References
+{% endcapture %}
+{% include elements/list.html title="Table of Contents" type="toc" %}
+
+# Enumeration
 
 First of all, a port scan will be executed with **Nmap** in order to see which 
 ports are open on the target machine.
@@ -31,6 +39,17 @@ sudo nmap -p- -sS --min-rate 5000 --open  -vvv -n -Pn 10.10.10.56 -oG allPorts
 - `-n`
 - `-Pn`
 - `-oG`
+
+| Parameter          | Description
+| -------------------|:-------------:|
+| `-p-`              | right-aligned |
+| `-sS-`             | centered      |
+| `--min-rate 5000`  | `Markdown`    |
+| `--open`           | `Markdown`    |
+| `-vvv`             | `Markdown`    |
+| `-n`               | `Markdown`    |
+| `-Pn`              | `Markdown`    |
+| `-oG`              | `Markdown`    |
 
 
 {% capture list_items %}
