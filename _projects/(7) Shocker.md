@@ -6,3 +6,5 @@ description: This is Shocker HackTheBox machine walkthrough, this is an easy dif
 ---
 
 # Shocker
+
+{% include elements/figure.html image="../img/Shocker_info.png" caption="Shocker" %}
