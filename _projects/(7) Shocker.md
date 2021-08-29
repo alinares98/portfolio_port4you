@@ -29,7 +29,7 @@ ports are open on the target machine.
 ```
 sudo nmap -p- -sS --min-rate 5000 --open  -vvv -n -Pn 10.10.10.56 -oG allPorts
 ```
-{% include elements/figure.html image="../img/Shocker/ports_nmap.png" %}
+{% include elements/figure.html image="../img/Shocker/nmap_ports.png" %}
 
 * `-p-`
 - `-sS-`
@@ -51,11 +51,3 @@ sudo nmap -p- -sS --min-rate 5000 --open  -vvv -n -Pn 10.10.10.56 -oG allPorts
 | `-Pn`              | `Markdown`    |
 | `-oG`              | `Markdown`    |
 
-
-{% capture list_items %}
-Enumeration
-Exploitation
-Privilege escalation
-References
-{% endcapture %}
-{% include elements/list.html title="Table of Contents" type="toc" %}
