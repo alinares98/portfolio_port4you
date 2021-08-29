@@ -7,7 +7,14 @@ description: This is Shocker HackTheBox machine walkthrough, this is an easy dif
 
 # WriteUp – Shocker – ShellShock
 
-{% include elements/figure.html image="../img/Shocker_info.png" caption="Shocker Info" %}
+{% include elements/figure.html image="../img/Shocker_info.png" %}
+
+Today we are going to make the [HackTheBox](https://www.hackthebox.eu/) 
+**Shocker** machine, 
+it is a very simple machine but it will allow us to know more 
+about the **ShellShock** vulnerability that we will see later.
+
+
 
 {% capture list_items %}
 Enumeration
@@ -16,7 +23,3 @@ Privilege escalation
 References
 {% endcapture %}
 {% include elements/list.html title="Table of Contents" type="toc" %}
-
-```unix
-sudo wfuzz -c -t 200 --hc=404 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt http://10.10.10.56/FUZZ/
-```
