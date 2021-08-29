@@ -41,4 +41,18 @@ sudo nmap -p- -sS --min-rate 5000 --open  -vvv -n -Pn 10.10.10.56 -oG allPorts
 - `-oG` Grepable output
 
 
-[More information about the parameters involved](https://explainshell.com/explain?cmd=sudo+nmap+-p-+-sS+--min-rate+5000+--open++-vvv+-n+-Pn+10.10.10.56+-oG+allPorts)
+[More info](https://explainshell.com/explain?cmd=sudo+nmap+-p-+-sS+--min-rate+5000+--open++-vvv+-n+-Pn+10.10.10.56+-oG+allPorts)
+
+Now, nmap is going to be used again, in this case to determine which services 
+and versions are running on the ports that were obtained earlier.
+
+```
+sudo nmap -sC -sV -p80,2222 10.10.10.56 -oN targeted
+```
+
+
+* `-sC` Performs a script scan using the default set of scripts
+- `-sV` Enables version detection
++ `-oN` Normal output
+
+[More info](https://explainshell.com/explain?cmd=sudo+nmap+-sC+-sV+-p80%2C2222+10.10.10.56+-oN+targeted)
