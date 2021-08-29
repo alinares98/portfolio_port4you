@@ -42,12 +42,12 @@ sudo nmap -p- -sS --min-rate 5000 --open  -vvv -n -Pn 10.10.10.56 -oG allPorts
 
 | Parameter          | Description
 | -------------------|:-------------:|
-| `-p-`              | right-aligned |
-| `-sS-`             | centered      |
-| `--min-rate 5000`  | `Markdown`    |
-| `--open`           | `Markdown`    |
-| `-vvv`             | `Markdown`    |
-| `-n`               | `Markdown`    |
-| `-Pn`              | `Markdown`    |
-| `-oG`              | `Markdown`    |
+| `-p-`              | To scan all ports from 1 to 65535 |
+| `-sS-`             | TCP SYN scan      |
+| `--min-rate 5000`  | Scanning speed 5000 packets per second    |
+| `--open`           | Show only open (or possibly open) ports    |
+| `-vvv`             | Increases the verbosity level, causing Nmap to print more information about the scan in progress  |
+| `-n`               | No DNS resolution    |
+| `-Pn`              | This option skips the host discovery stage altogether    |
+| `-oG`              | Grepable output    |
 
