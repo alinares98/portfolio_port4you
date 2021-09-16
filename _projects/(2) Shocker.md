@@ -13,14 +13,6 @@ Today we are going to make the [HackTheBox](https://www.hackthebox.eu/)
 **Shocker** machine, it is a very simple machine but it will allow us 
 to know more about the **ShellShock** vulnerability that we will see later.
 
-{% capture list_items %}
-Enumeration
-Exploitation
-Privilege escalation
-References
-{% endcapture %}
-{% include elements/list.html title="Table of Contents" type="toc" %}
-
 # Enumeration
 
 First of all, a port scan will be executed with **Nmap** in order to see which 
